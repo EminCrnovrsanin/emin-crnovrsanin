@@ -1,0 +1,70 @@
+<html>
+<!DOCTYPE >
+<head>    
+<title>Prva web stranica</title>
+
+</head>
+<body >   
+   
+    <!--ovo ne zelim da se vidi(ovo predstavlja komentar)-->
+    <h1> Ovo je glavni naslov na stranici </h1>
+    <h2> Ovo je prvi podnaslov tipa h2</h2>
+    <div align="center">
+    <p align="right"> ovdje je sve sto se vidi na stranici </p> 
+    <p align="right"> ovo je drugi p tag <br/>ovdje je sve sto se vidi na stranici </p> 
+    </div>
+    <h2>Ovo je drugi podnaslov tipa h2</h2>
+    <!--paragraf tag definise izgled textualno sadrzaja na stranici <p> </p> uz njega moze stojati i atribut align koji uzima vrijednosti: left center right justify-->
+    <!--novi red se oznacava <br/>-->
+    <!--div u sebi moze sadrzati vise p tagova, kao i p tag moze sadrzati align-->
+    
+    <!--LISTE-->
+        <ul type="square"> 
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+    </ul>
+
+    <ol type="a" start="4">
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+    </ol>
+
+    <dl >
+        <dt>stavka 1</dt>
+        <dd>opis stavke 1</dd>
+        <dt>stavka 2 </dt>
+        <dd>opis stavke 2</dd>
+    </dl>
+    <!--liste mogu biti numerisane(<al>),nenumerisane(<ul>) i definicione liste(<dl>,termini pocinju sa dt a njihove definicije sa <dd>),pojedinacne stavke (<li>)-->
+    <!--<ul> moze stojati tag type koji ima vr circle(prazne tacke),square(kocke),triangle(trougao)-->
+    <!--ol takodje moze imati type tag koji sadrzi vrijednosti A(slova ispred liste),I(rimski brojevi),a(mala slova),i(mali rimski brojevi)-->
+    <!--<ol type="A" START= "4" > -->
+    
+    <!--SLIKE-->
+    <img src ="emin.jpg" width="200" align="right" alt=""title="neka apstraktna slika" border="10" />
+    <!-- <font> ovaj tag moze da ima sledece atribute face,size i color, <font color-#broj boje> -->
+    <!--body tag moze da ima body bgcolor=""-->
+    <!--<body background="slika1.jpg" bgcolor="#000000">,bg color pozadina i njena boja-->
+    <!-- <img src ="emin.jpg"> ubacivanje slike na stranicu (ako se slika nalazi u istom folderu ne treba direkcija do nje)-->
+    <!--za poravnjanje slike align moze imati vrijednosti za vertikalno poravnjanje top,middle,absmiddle,bottom,za horizontalno poravnjenje:left,center,right-->
+    <!--alt=""title="neka apstraktna slika" za dodavanja naziva slike-->
+    <!--border="10" za dodavanje okvira slike-->
+    
+    <!-- HIPERVEZE-LINKOVI -->
+    <!--link na stranice unutar istog servera -->
+    <!--1 varijanta <a href="link sajta do koga zelimo da dodjemo> naziv linka <a/> "-->
+    <a href="https://www.udg.edu.me" > Ovo je link do sajta udg-a </a> 
+    <!--2 varijanta link na istu stranicu(stranica koja se nalazi u nasem folderu) -->
+    <a href="druga.html" > Ovo je link do druge stranice </a>
+    <!--3 varijanta <a   nisam stigao da ispratim-->
+    
+    <!--    slika kao link-->
+    <a href="https://www.cdm.me" >  <img src ="CDM.png" width="200">    </a> 
+
+    <a href="https://webmail.udg.edu.me/owa/#path=/mail" >  link od udg mail a   </a> 
+    <a href="mailto:milica.jankovic@udg.edu.me?subject=Test poruka&body=napisite vas komentar">kontakt email</a>
+</body>
+
+</html>
